@@ -47,7 +47,7 @@
     <footer>
       <p>Copyright 2018  www.ibankmatch.com  粤ICP备18015540号-1</p>
       <div class="item">
-        <span class="phone active">移动版&nbsp;·&nbsp;</span><span class="computer">电脑版&nbsp;·&nbsp;</span><a href="#header">回顶部</a>
+        <span class="phone active">移动版&nbsp;·&nbsp;</span><span class="computer"><a href="./index.html">电脑版</a>&nbsp;·&nbsp;</span><a href="#header">回顶部</a>
       </div>
     </footer>
   </div>
@@ -61,6 +61,15 @@
         document.getElementsByClassName('m_nav')[0].className = "m_nav";
       }
     })
+    //
+      var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        autoplay:true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
   </script>
 </body>
 </html>

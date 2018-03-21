@@ -140,6 +140,9 @@ footer .item span.active{
   -webkit-align-items: center;
   align-items: center;
 }
+.swiper-pagination-bullet-active{
+  background:#fff !important;
+}
 .swiper-container .title{
   position: absolute;
   bottom: 500px;
