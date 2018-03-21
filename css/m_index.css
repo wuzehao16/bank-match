@@ -38,8 +38,8 @@ body{margin: 0;}
 #header .m_logo{
   background: url(./m_images/logo.png) no-repeat;
   width: 120px;
-  background-position: 5px 5px;
-  background-size: 90% 80%;
+  background-position: 5px 6px;
+  background-size: 90% 75%;
 }
 #header .m_more{
   background: url(./m_images/more.png) no-repeat;
@@ -65,13 +65,13 @@ body{margin: 0;}
   /* visibility: hidden; */
   background-color: #000;
   height: 0px;
-  transition: height linear 1s;
+  transition: height linear 0.5s;
   /* visibility: hidden; */
 }
 #header ul.show{
   /* display: block; */
   height: 180px;
-  transition: height linear 1s;
+  transition: height linear 0.5s;
   visibility: visible;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
@@ -179,7 +179,7 @@ footer .item span.active{
 }
 .app-banner2{
   background: url(./m_images/app2.jpg);
-  height: 550px;
+  height: 440px;
   background-size: 100% 100%;
 }
 .app-banner3{
