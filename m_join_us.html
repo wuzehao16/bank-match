@@ -11,7 +11,15 @@
 <body>
   <div class="app">
     <header id="header">
-      <a href="./m_app.html">app</a>
+      <div class="m_top">
+        <div class="m_logo"></div>
+        <div class="m_more"></div>
+      </div>
+      <ul class="m_nav">
+        <li><a href="./m_home.html">首页</a></li>
+        <li><a href="./m_app.html">app</a></li>
+        <li><a href="./m_join_us.html">加入我们</a></li>
+      </ul>
     </header>
     <div class="join_us">
       <div class="join_us_banner"></div>
@@ -449,6 +457,16 @@
     </footer>
   </div>
   <script type="text/javascript">
+  // nav
+    var more = document.getElementsByClassName('m_more');
+    more[0].addEventListener('touchend',function  () {
+      if (document.getElementsByClassName('m_nav')[0].className == "m_nav") {
+        document.getElementsByClassName('m_nav')[0].className = "m_nav show";
+      } else{
+        document.getElementsByClassName('m_nav')[0].className = "m_nav";
+      }
+    })
+    // bar
     var element = document.getElementsByClassName('filter');
     var content =document.getElementsByClassName('content');
     for (var i = 0; i < element.length; i++) {
